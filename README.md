@@ -48,6 +48,12 @@ yarn electron:build:win
 yarn electron:build:mac
 ```
 
+**Note:** To regenerate the icons
+```
+npm install -g electron-icon-builder
+yarn electron:generate-icons
+```
+
 ## Compatability Table
 Starkiller’s new features occasionally depend on new functionality within Empire. Therefore, it is recommended that you follow this release table for syncing up your Starkiller and Empire versions. If you are using an older version of Empire, Starkiller will warn you when logging in, but will allow you to continue. If a there is a new minimum version of Empire required to get all the features out of Starkiller, we will do a minor version bump to Starkiller.
 | Starkiller Release | Minimum Empire Version | Notes  |
